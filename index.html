@@ -7,13 +7,23 @@
 <body>
   <h1>Comprar Boletos para CineMoroll</h1>
   <form id="myForm">
-    <label for="inputData">Ingresa tu nombre:</label>
+    <label for="inputData">Ingresa Tu Nombre:</label>
     <input type="text" id="inputData" name="inputData" required>
-    <button type="submit">Reclamar Entrada</button>
+    <label for="inputData">Ingresa Pelicula:</label>
+    <select name="peliculas" id="peliculas">
+      <option value="Barbie">Barbie</option>
+      <option value="Oppenheimer">Oppenheimer</option>
+      <option value="La Sirenita">La Sirenita</option>
+      <option value="Elementos">Elementos</option>
+      <option value="M3GAN">M3GAN</option>
+      <option value="FNAF">FNAF</option>
+      <option value="Tomboy (G)I-DLE">Tomboy (G)I-DLE</option>
+    </select>
+    <button type="submit">Comprar Entrada</button>
   </form>
 
   <div id="result"></div>
-
+  <div id="result2"></div>
   <script src="script.js"></script>
 </body>
 </html>
